@@ -1,0 +1,58 @@
+.slide-container {
+    float: right;
+    margin-bottom: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.first {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+.second {
+    animation-name: example;
+    animation-duration: 1.2s;
+}
+
+.third {
+    animation-name: example;
+    animation-duration: 1.4s;
+}
+
+.fourth {
+    animation-name: example;
+    animation-duration: 1.6s;
+}
+
+.fifth {
+    animation-name: example;
+    animation-duration: 1.8s;
+}
+
+.sixth {
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+.seventh {
+    animation-name: example;
+    animation-duration: 2.2s;
+}
+
+.slide-text {
+    color: black;
+    font-size: 70px;
+    // position: absolute;
+    // right: 15vw;
+    // margin-top: 0;
+    margin: 7px 20px 20px calc(25vw - 125px);
+}
+
+
+@keyframes example {
+    0%   { margin-right: 100vw }
+    100% { margin-right: 0vw }
+}
